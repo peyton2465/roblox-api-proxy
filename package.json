@@ -1,0 +1,23 @@
+{
+  "name": "roblox-api-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peyton2465/roblox-api-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peyton2465/roblox-api-proxy/issues"
+  },
+  "homepage": "https://github.com/peyton2465/roblox-api-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
+  }
+}
