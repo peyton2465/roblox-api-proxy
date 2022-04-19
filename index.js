@@ -6,7 +6,7 @@ app.use('/:api/*', createProxyMiddleware({
     router: (req) => `https://${req.params.api}.roblox.com`,
     onProxyReq: (req) => {
         req.path = req.path.substring(req.path.indexOf('/', 1))
-        req.setHeader('User-Agent', 'something')
+        req.setHeader('User-Agent', 'roblox-api-proxy')
         req.removeHeader('Roblox-Id')
     }
 }))
